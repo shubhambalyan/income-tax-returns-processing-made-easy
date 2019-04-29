@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Income-Tax Returns Processing Made Easy</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/structure.css">
+</head>
+<body>
+<form class="box login" method="POST">
+	<label align="center"><font size="5" color="grey"><center>Bank Receipt</center></font></label>
+	<fieldset class="boxBody">
+      <label><b>Bank:</b></label>
+	  <input type="text" name="bank" disabled="disabled">
+	  <label><b>Account Number:</b></label>
+	  <input type="text" name="Accno" disabled="disabled">
+	  <label><b>Date:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="x"></p>
+      </label>
+	  <label><b>Amount Credited:</b></label>
+	  <input type="number" name="amount" disabled/>
+      </fieldset>
+</form>
+<script>
+var d = new Date();
+document.getElementById("x").innerHTML = d.toDateString();
+</script>
+</body>
+</html>

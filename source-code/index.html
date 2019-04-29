@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Income-Tax Returns Processing Made Easy</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width">        
+  <link rel="stylesheet" href="CSS/templatemo_main.css">
+</head>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <script src="js/templatemo_script.js"></script>
+	<script>
+	function fnv1()
+	{
+//		document.getElementById("imageinsertion").style.margin-left="120px";
+ 		document.getElementById("zx").innerHTML=" <form><h1><b>&nbsp;&nbsp;&nbsp;Create Customer:</b></h1> <br> <b>PAN No.:</b> <input type=\"text\" name=\"pan\" autofocus ><br><br>	<b>Name: </b>&nbsp;&nbsp;&nbsp;&nbsp;<input type=\"text\" name=\"Name\"><br> <br>   <b>City: </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=\"text\" name=\"City\"><br> <br>   <b>Age: </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type=\"number\" name=\"Age\" max=150 min=18><br><br>	<b>Sex: </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b>Male : </b><input type=\"radio\" name=\"Sex\" value=\"male\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b>Female : </b><input type=\"radio\" name=\"Sex\" value=\"female\">	<br><br>&nbsp;&nbsp;&nbsp;&nbsp;	<input type=\"submit\" value=\"SUBMIT\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=\"reset\" value=\"RESET\"></form> ";
+	}
+	function h()
+	{
+//		document.getElementById("imageinsertion").style.margin-left="120px";
+		document.getElementById("zx").innerHTML = "<img src=\"electioncommission.jpg\">" ;
+	}
+	function fnv0()
+	{
+//		document.getElementById("imageinsertion").style.margin-left="120px";
+ 		document.getElementById("zx").innerHTML=" <form><h1><b>Customer Information:</b></h1> <br> <b>PAN No.:</b> <input type=\"text\" name=\"pan\" autofocus><br><br>	&nbsp;&nbsp;&nbsp;&nbsp;	<input type=\"submit\" value=\"SUBMIT\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=\"reset\" value=\"RESET\"></form> ";
+	}
+	function fnv2()
+	{
+//		document.getElementById("imageinsertion").style.margin-left="120px";
+ 		document.getElementById("zx").innerHTML=" <form><h1><b>&nbsp;&nbsp;&nbsp;Delete Customer:</b></h1> <br> <b>PAN No:</b> <input type=\"text\" name=\"pan\" autofocus><br><br>	&nbsp;&nbsp;&nbsp;&nbsp;	<input type=\"button\" value=\"submit\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=\"reset\" value=\"RESET\"></form> ";
+	}
+	function fn1()
+	{
+//		document.getElementById("imageinsertion").style.margin-left="120px";
+ 		document.getElementById("zx").innerHTML=" <form><h1><b>&nbsp;&nbsp;Create Employee:</b></h1> <br> <b>Employee-ID:&nbsp;</b> <input type=\"text\" name=\"EmpID\" autofocus><br><br><b>Name: </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=\"text\" name=\"Name\"><br> <br>   <b>Age: </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type=\"number\" name=\"Age\" max=150 min=18><br><br>	<b>Sex: </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b>Male : </b><input type=\"radio\" name=\"Sex\" value=\"male\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b>Female : </b><input type=\"radio\" name=\"Sex\" value=\"female\">	<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<input type=\"submit\" value=\"SUBMIT\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=\"reset\" value=\"RESET\"></form> ";
+	}
+	function fn2()
+	{
+//		document.getElementById("imageinsertion").style.margin-left="120px";
+ 		document.getElementById("zx").innerHTML=" <form><h1><b>&nbsp;&nbsp;Delete Employee:</b></h1> <br> <b>Employee-ID:</b> <input type=\"text\" name=\"EmpID\" autofocus><br><br>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<input type=\"submit\" value=\"SUBMIT\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=\"reset\" value=\"RESET\"></form> ";
+	}
+	function fn3()
+	{
+//		document.getElementById("imageinsertion").style.margin-left="120px";
+ 		document.getElementById("zx").innerHTML=" <form><h1><b>Employee-Information:</b></h1> <br> <b>Employee-ID:</b> <input type=\"text\" name=\"EmpID\" autofocus><br><br>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<input type=\"submit\" value=\"SUBMIT\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=\"reset\" value=\"RESET\"></form> ";
+	}
+	</script>
+    <body>
+  <div class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <div class="logo" style="text-align:center"><h1> Admin </h1></div>
+      </div>   
+    </div>
+    <div class="template-page-wrapper" style="height:100%;">
+      <div class="navbar-collapse collapse templatemo-sidebar">
+        <ul class="templatemo-sidebar-menu">
+          <li class="active" onClick="h()"><a href="#"><b>&nbsp;&nbsp;&nbsp;Home</b></a></li>
+          <li class="sub">
+            <a href="javascript:;">
+              <i class="fa fa-database"></i><b> Customers </b><div class="pull-right"><span class="caret"></span></div>
+            </a>
+            <ul class="templatemo-submenu">
+              <li onClick="fnv0()"><a href="#"><b>Customer Information</b></a></li>
+			  <li onClick="fnv1()"><a href="#"><b>Create Customer</b></a></li>
+			  <li onClick="fnv2()"><a href="#"><b>Delete Customer</b></a></li>
+            </ul>
+			</li>
+			<li class="sub">
+			<a href="javascript:;">
+              <i class="fa fa-database"></i> <b>Employees </b><div class="pull-right"><span class="caret"></span></div>
+            </a>
+            <ul class="templatemo-submenu">
+			  <li onClick="fn3()"><a href="#"><b>Employee Information</b></a></li>
+              <li onClick="fn1()"><a href="#"><b>Create Employee</b></a></li>
+              <li onClick="fn2()"><a href="#"><b>Delete Employee</b></a></li>
+            </ul>
+          </li>
+          <li><a href="data-visualization.html"><i class="fa fa-cubes"></i><b>Change Rate</b></a></li>
+          <li><a href="javascript:;" data-toggle="modal" data-target="#confirmModal"><i class="fa fa-sign-out" ></i><b>Sign Out</b></a></li>
+        </ul>
+      </div>
+</div>
+<div id="imageinsertion" style="margin-left:400px; margin-top:50px; ">
+<p><span id="zx"><img id="x1x"src="electioncommission.jpg" align="middle"><span></p></div></div>
+<footer class="templatemo-footer" style=" margin-top:111px;">
+        <div class="templatemo-copyright">
+          <p>Copyright &copy; Income Tax Returns Processing System</p>
+        </div>
+ </footer>
+</body>
+</html>

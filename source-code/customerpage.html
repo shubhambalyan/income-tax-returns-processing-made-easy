@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Income-Tax Returns Processing Made Easy</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width">        
+  <link rel="stylesheet" href="CSS/templatemo_main.css">
+</head>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <script src="js/templatemo_script.js"></script>
+	<script>
+		function h()
+	{
+//		document.getElementById("imageinsertion").style.margin-left="120px";
+		document.getElementById("zx").innerHTML = "<img src=\"Income-Tax-Online.jpg\">" ;
+	}
+	function fn1()
+	{
+//		document.getElementById("imageinsertion").style.margin-left="120px";
+ 		document.getElementById("zx").innerHTML=" <form><h1><b>&nbsp;&nbsp;Return Form:</b></h1> <br> <b>PAN Number:&nbsp;</b> <input type=\"text\" name=\"pan\" autofocus disabled><br><br><b>Name: </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=\"text\" name=\"Name\" disabled><br> <br>   <b>Age: </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type=\"number\" name=\"Age\" max=150 min=18 disabled><br><br>	<b>Sex: </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b>Male : </b><input type=\"radio\" name=\"Sex\" value=\"male\" disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b>Female : </b><input type=\"radio\" name=\"Sex\" value=\"female\" disabled>	<br><br><b>Income-Tax Paid This Year: </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type=\"number\" name=\"itthisyear\"><br><br> <b>Proof Submissions: </b><br><br><b>Attachment-1:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=\"file\" name=\"att1\" value=\"Attachment 1\"><br><br><b>Attachment-2:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b><input type=\"file\" name=\"att2\"><br><br><b>Attachment-3:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=\"file\" name=\"att3\"><br><br><b>Select Any Employee:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name=\"Select Any Employee\"><br><option value=\"emp1\">Employee 1</option><option value=\"emp2\">Employee 2</option><option value=\"emp3\">Employee 3</option><option value=\"emp4\">Employee 4</option></select><br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<input type=\"submit\" value=\"SUBMIT\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=\"reset\" value=\"RESET\"></form> ";
+	}
+	function fn2()
+	{
+//		document.getElementById("imageinsertion").style.margin-left="120px";
+ 		document.getElementById("zx").innerHTML=" <form><h1><b>&nbsp;&nbsp;Return Status:</b></h1> <br> <b>Acknowledgement Number:</b> <input type=\"text\" name=\"Ackno\" autofocus><br><br>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<input type=\"submit\" value=\"SUBMIT\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=\"reset\" value=\"RESET\"></form> ";
+	}
+	</script>
+    <body>
+  <div class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <div class="logo" style="text-align:center"><h1> !! Welcome Customer !! </h1></div>
+      </div>   
+    </div>
+    <div class="template-page-wrapper" style="height:100%;">
+      <div class="navbar-collapse collapse templatemo-sidebar">
+        <ul class="templatemo-sidebar-menu">
+          <li class="active" onClick="h()"><a href="#"><b>&nbsp;&nbsp;&nbsp;Home</b></a></li>
+      	  <li onClick="fn1()" ><a href="#"><b>Fill Return Form</b></a></li>
+          <li onClick="fn2()"><a href="#"><b>Check Status</b></a></li>
+          <li><a href="javascript:;" data-toggle="modal" data-target="#confirmModal"><i class="fa fa-sign-out" ></i><b>Sign Out</b></a></li>
+        </ul>
+      </div><!--/.navbar-collapse -->
+</div>
+<div id="imageinsertion" style="margin-left:500px; margin-top:50px; ">
+<p><span id="zx"><img id="x1x"src="Income-Tax-Online.jpg" align="middle"><span></p></div></div>
+<footer class="templatemo-footer" style=" margin-top:111px;">
+        <div class="templatemo-copyright">
+          <p>Copyright &copy; Income Tax Returns Processing System</p>
+        </div>
+ </footer>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Income-Tax Returns Processing Made Easy</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width">        
+  <link rel="stylesheet" href="CSS/templatemo_main.css">
+</head>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <script src="js/templatemo_script.js"></script>
+	<div class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <div class="logo" style="text-align:center"><h1> SIGN-UP </h1></div>
+      </div>   
+    </div>
+  <body>
+  <form style="margin-left:570px; ">
+  <h1><b>&nbsp;&nbsp;&nbsp;Registration:</b></h1> <br> 
+  <b>PAN No:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="VoterID" autofocus required><br><br>
+  <b>Password:</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="p1" type="password" name="password"  required><br><br>
+  <b>Confirm-Password:</b>&nbsp;&nbsp;&nbsp; <input id="p2" type="password" name="password" required onChange="match1()"><p id="err"></p><br>
+  <b>Bank:</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="bank" required><br><br>
+  <b>Bank-Account No.:</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="bank" required><br><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;	<input type="submit" value="SUBMIT">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="RESET"></form>
+			<br>
+			<br>
+			<br>
+<script>
+function match1(){
+var x= document.getElementById("p1");
+var y= document.getElementById("p2");
+if(x!=y)
+{document.getElementById("err").innerHTML="Password entered not matching.";}
+else
+{document.getElementById("err").innerHTML="";}
+}
+</script>
+ <footer class="templatemo-footer" >
+        <div class="templatemo-copyright">
+          <p>Copyright &copy; Income Tax Returns Processing System</p>
+        </div>
+ </footer>
+ </body>
+</html>
